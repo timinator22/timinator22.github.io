@@ -1,0 +1,43 @@
+html {
+    background-color: #e0e0e0;
+}
+#header {
+    background-color: #d9d9d9;
+    width: 100%;
+    min-height: 100px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#content {
+min-height: 50vh;
+}
+
+#footer {
+    background-color: #d9d9d9;
+    width: 100%;
+    min-height: 100px;
+}
+
+body {
+margin: 0;    
+}
+#menu .open{
+    display: none;   
+}
+    #hamburger{
+    color: #13171c;
+    background-color: #bdbdbd;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        font-size: 55px;
+        margin-right: 20px;
+        border: 2px solid black;
+        cursor: pointer;
+    }
