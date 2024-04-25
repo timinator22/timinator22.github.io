@@ -132,6 +132,25 @@ body {
     max-height: 400px;
     object-fit: cover;
 }
+#content .content-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#content .content-images a {
+    width: 48%;
+}
+@media (max-width: 1100px) {
+    #content .content-images a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+#content .content-images img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 #footer #qrcode img {
     height: 100px;
     margin: 25px;
