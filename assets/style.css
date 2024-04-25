@@ -48,6 +48,12 @@ body {
     background-color: #a8a8a8;
     z-index: 2;
 }
+@media (max-width: 800px) {
+    #menu .open {
+        width: 100%;
+        min-height: 100vh;
+    }
+}
 #menu .overlay {
     display: none;
     position: fixed;
