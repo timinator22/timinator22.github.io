@@ -186,18 +186,34 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 #content .person h2 {
     font-weight: normal;
 }
 #content .person img {
-    max-height: 400px;
+    max-height: 300px;
+    
 }
+
+#content .person.links > .person-bild img {
+    margin-right: 20px;
+    
+}
+
+#content .person.rechts > .person-bild img {
+    margin-left: 20px;
+    
+}
+
+
 #content .person.links {
     flex-direction: row;
+   
 }
 #content .person.rechts {
     flex-direction: row-reverse;
+    
 }
 #footer #qrcode img {
     height: 100px;
