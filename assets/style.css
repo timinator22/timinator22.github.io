@@ -59,7 +59,7 @@ body {
     top: 0;
     left: 0;
 }
-#menu .open .close-icon {
+#menu .open #close-icon {
     position: fixed;
     top: 20px;
     right: 20px;
