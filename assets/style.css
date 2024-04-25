@@ -20,7 +20,13 @@ body {
     align-items: center;
 }
 #content {
-    min-height: 50vh;
+    max-width: 1920px;
+    padding: 50px 16.6% 50px 16.6%;
+}
+@media (max-width: 800px) {
+    #content {
+        padding: 50px 10px 50px 10px;
+    }
 }
 #footer {
     background-color: #d9d9d9;
@@ -33,8 +39,52 @@ body {
 
 /* --- Menu --- */
 
-#menu .open{
-    display: none;   
+#menu .open {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 585px;
+    background-color: #a8a8a8;
+    z-index: 2;
+}
+#menu .overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: #d9d9d9;
+    opacity: 0.9;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+#menu .open .close-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: #828282;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 55px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#menu .open ul {
+    list-style: none;
+    text-align: center;
+    margin: 250px 0;
+}
+#menu .open ul li {
+    margin: 10px 0;
+}
+#menu .open ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
 }
 #hamburger{
     color: #13171c;
@@ -57,6 +107,24 @@ body {
     background-color: black;
     padding: 10px;
     margin: 0 0 0 10px;
+}
+#header #logo h1 a {
+    color: white;
+    text-decoration: none;
+}
+#content .title h2 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+    margin: 40px 0;
+}
+#content .content-image {
+    margin: 20px 0;
+}
+#content .content-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
 }
 #footer #qrcode img {
     height: 100px;
