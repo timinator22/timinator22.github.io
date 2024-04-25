@@ -4,9 +4,9 @@ html {
     background-color: #e0e0e0;
 }
 body {
-margin: 0;
-margin: 0;
-font-family: 'Raleway', sans-serif;
+    margin: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* --- Haupt-Container --- */
@@ -52,13 +52,16 @@ font-family: 'Raleway', sans-serif;
 
 /* --- Inhalte --- */
 
-#logo h1 {
+#header #logo h1 {
     color: white;
     background-color: black;
     padding: 10px;
-    margin: 0;
+    margin: 0 0 0 10px;
 }
-#qrcode img {
+#footer #qrcode img {
     height: 100px;
     margin: 25px;
+}
+#footer #social-links {
+    margin-right: 25px;
 }
