@@ -1,6 +1,16 @@
+/* --- Basis-Tags --- */
+
 html {
     background-color: #e0e0e0;
 }
+body {
+margin: 0;
+margin: 0;
+font-family: 'Raleway', sans-serif;
+}
+
+/* --- Haupt-Container --- */
+
 #header {
     background-color: #d9d9d9;
     width: 100%;
@@ -8,14 +18,10 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
-
 #content {
-min-height: 50vh;
+    min-height: 50vh;
 }
-
 #footer {
     background-color: #d9d9d9;
     width: 100%;
@@ -23,18 +29,14 @@ min-height: 50vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-body {
-margin: 0;    
-margin: 0;
-font-family: 'Raleway', sans-serif;
-}
+/* --- Menu --- */
+
 #menu .open{
     display: none;   
 }
-    #hamburger{
+#hamburger{
     color: #13171c;
     background-color: #bdbdbd;
     width: 75px;
@@ -42,21 +44,21 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
-        font-size: 55px;
-        margin-right: 20px;
-        border: 2px solid black;
-        cursor: pointer;
-    }
+    font-size: 55px;
+    margin-right: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+/* --- Inhalte --- */
+
+#logo h1 {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
 #qrcode img {
     height: 100px;
     margin: 25px;
 }
-#logo h1 {
-    color: white;        /* Setzt die Schriftfarbe auf Weiß */
-    background-color: black; /* Setzt die Hintergrundfarbe auf Schwarz */
-    padding: 10px;       /* Fügt ein wenig Platz innerhalb des h1-Tags hinzu */
-    margin: 0;           /* Entfernt den standardmäßigen Außenabstand */
-}
-
-
-
