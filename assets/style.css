@@ -20,10 +20,16 @@ min-height: 50vh;
     background-color: #d9d9d9;
     width: 100%;
     min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 body {
 margin: 0;    
+margin: 0;
+font-family: 'Raleway', sans-serif;
 }
 #menu .open{
     display: none;   
@@ -41,3 +47,16 @@ margin: 0;
         border: 2px solid black;
         cursor: pointer;
     }
+#qrcode img {
+    height: 100px;
+    margin: 25px;
+}
+#logo h1 {
+    color: white;        /* Setzt die Schriftfarbe auf Weiß */
+    background-color: black; /* Setzt die Hintergrundfarbe auf Schwarz */
+    padding: 10px;       /* Fügt ein wenig Platz innerhalb des h1-Tags hinzu */
+    margin: 0;           /* Entfernt den standardmäßigen Außenabstand */
+}
+
+
+
